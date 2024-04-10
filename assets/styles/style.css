@@ -1,0 +1,1702 @@
+@import url("./fonts.css");
+
+.container{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Manrope-m";
+    text-decoration: none;
+
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.section-stars{
+    border-bottom: solid 1px #000000;
+    border-top: solid 1px #000000;
+}
+
+.lang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.langs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.container1{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.monoh{
+    display: flex;
+}
+
+.monoh h1{
+    font-size: 143px;
+}
+
+.monoh h5{
+    font-size: 17px;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+.monohr img:nth-child(1){
+    height: 420px;
+}
+
+.monohr img:nth-child(2){
+    height: 420px;
+    width: 260px;
+    margin-left: 70px;
+}
+
+.people{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.text{
+    font-size: 37px;
+}
+
+.section-collection{
+    background-image: url(../imgs/6.jpg);
+    background-size: cover;
+    height: 1000px;
+    margin-top: 100px;
+}
+
+
+.collect h1{
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    font-family: "Manrope-r"
+}
+
+.collect{
+    margin-top: 120px;
+}
+
+.collect h4{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    font-size: 20px;
+    width: 600px;
+    text-align: center;
+    font-family: "Manrope-r";
+}
+
+.collect button{
+    font-family: "Manrope-r";
+    height: 80px;
+    width: 300px;
+    margin-left: 450px;
+    margin-top: 40px;
+    font-size: 17px;
+    margin-top: 80px;
+
+}
+
+.sezon{
+    display: flex;
+    justify-content: start;
+    font-size: 38px;
+
+}
+
+.sezons{
+    display: flex;
+    justify-content: end;
+    font-size: 38px;
+
+}
+
+
+.cveta{
+    display: flex;
+    gap: 20px;
+}
+
+.green{
+    margin-top: 35px;
+}
+
+.red h2{
+    display: flex;
+}
+
+
+.greeen{
+    display: flex;
+    gap: 90px;
+}
+
+.texttt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rybli{
+    display: flex;
+    margin-top: 50px;
+}
+
+.texttt h1{
+    font-size: 50px;
+    font-family: "Manrope-r";
+}
+
+.textttt h3{
+    font-size: 20px;
+}
+
+.razmer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.razmer h5:nth-child(2){
+    text-decoration: underline;
+}
+
+.sortir{
+    margin-top: 20px;
+    height: 50px;
+    width: 470px;
+    border: 2px solid #cecece;
+    background-color: rgb(255, 255, 255);
+}
+
+.rybli h1{
+    font-family: "Manrope-r";
+    font-size: 25px;
+}
+
+.rybli .input-auth{
+    border: 2px solid #cecece;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    padding: 10px;
+    height: 40px;
+    width: 340px;
+}
+
+.knopka button{
+    font-family: "Manrope-r";
+    height: 60px;
+    width: 470px;
+    margin-top: 40px;
+    font-size: 17px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.perecluch{
+    margin-top: 20px;
+}
+
+
+
+.text1{
+    display: none;
+}
+
+.text2{
+    display: none;
+}
+
+.text3{
+    display: none;
+}
+
+#input1:checked ~ .perecluch .text1{
+    display: block;
+}
+
+#input2:checked ~ .perecluch .text2{
+    display: block;
+}
+
+#input3:checked  ~ .perecluch .text3{
+    display: block;
+}
+
+#input1:checked ~  #label1{
+    text-decoration: underline;
+    color: #9c9c9c;
+}
+
+#input2:checked ~  #label2{
+    text-decoration: underline;
+    color: #9c9c9c;
+}
+
+#input3:checked ~ #label3{
+    text-decoration: underline;
+    color: #9c9c9c;
+}
+
+
+.aaa input{
+    display: none;
+}
+
+
+.b{
+    font-size: 20px;
+}
+
+.chtoo{
+    display: flex;
+    gap: 80px;
+}
+
+.chtoo img{
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.chtoo h3{
+    color: white;
+    margin-bottom: 20px;
+    font-family: "Manrope-r";
+}
+
+.chtoo h4{
+    color: white;
+    margin-bottom: 50px;
+    font-family: "Manrope-r";
+}
+
+.chto{
+    background-color: #000000;
+}
+
+.oaoaoa{
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 150px;
+}
+
+.onas h1{
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+
+.onas h4{
+    font-size: 23px;
+}
+
+.ahahha h1{
+    font-size: 70px;
+    color: #ffffff;
+    font-family: "Manrope-r";
+}
+
+.ohohoh h1{
+    font-size: 70px;
+    display: flex;
+    justify-content: end;
+    color: #ffffff;
+    font-family: "Manrope-r";
+}
+
+.pochti{
+    display: flex;
+    margin-top: 60px;
+    gap: 50px;
+}
+
+.ihihih h4{
+    font-size: 22px;
+    width: 600px;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+.regis .input-auths{
+    border: 2px solid #9c9c9c;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    height: 60px;
+    width: 510px;
+
+    
+}
+
+.regis h4{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+
+.rassilka h4{
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.acc{
+    margin-top: 20px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+#sogl{
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+pre{
+    color: #ffffff;
+}
+
+
+.rassilka button{
+    font-family: "Manrope-r";
+    height: 70px;
+    width: 510px;
+    font-size: 17px;
+    background-color: white;
+}
+
+.yprprpr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.yra{
+    border-top: solid 1px white;
+    margin-top: 0px;
+    background-color: #000000;
+}
+
+.sochseti img{
+    height: 60px;
+}
+
+.poslednee{
+    background-color: #000000;
+    height: 1000px;
+}
+
+@media (max-width: 1200px) {
+    .container1{
+        width: 950px;
+    }
+
+    .monoh h1 {
+        font-size: 112px;
+    }
+
+    .monohr img:nth-child(1) {
+        height: 330px;
+    }
+
+    .monohr img:nth-child(2) {
+        height: 320px;
+        width: 210px;
+        margin-left: 50px;
+    }
+
+    .monoh h5 {
+        font-size: 14px;
+        margin-top: 85px;
+        margin-left: 50px;
+    }
+
+    .people img{
+        height: 320px;
+        width: 270px;
+    }
+
+    .people {
+        display: flex;
+        gap: 50px;
+        margin-top: 50px;
+        font-size: 30px;
+    }
+
+    .people h5{
+        font-size: 20px;
+    }
+
+    .section-collection {
+        background-image: url(../imgs/6.jpg);
+        background-size: cover;
+        height: 550px;
+        margin-top: 100px;
+    }
+
+    .collect {
+        margin-top: 50px;
+    }
+
+    .collect h1 {
+        color: white;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        font-size: 60px;
+        font-family: "Manrope-r";
+    }
+
+    .collect h4 {
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-left: 150px;
+        font-size: 19px;
+        width: 600px;
+        text-align: center;
+        font-family: "Manrope-r";
+    }
+
+    .collect button {
+        font-family: "Manrope-r";
+        height: 60px;
+        width: 200px;
+        margin-left: 360px;
+        margin-top: 40px;
+        font-size: 13px;
+        margin-top: 50px;
+    }
+
+    .cveta {
+        display: flex;
+        gap: 15px;
+    }
+
+    .blue img{
+        height: 400px;
+        width: 280px;
+    }
+
+    .pink img{
+        height: 400px;
+        width: 280px;
+    }
+
+    .green img{
+        height: 150px;
+        width: 310px;
+    }
+
+    .red img{
+        height: 177px;
+        width: 310px;
+    }
+    
+    .cveta h2{
+        font-size: 15px;
+    }
+
+    .green {
+        margin-top: 45px;
+    }
+
+    .foto img{
+        height: 500px;
+    }
+
+    .greeen {
+        display: flex;
+        gap: 50px;
+    }
+    
+    .foto img {
+        height: 450px;
+    }
+
+    .texttt h1 {
+        font-size: 35px;
+        font-family: "Manrope-r";
+    }
+
+    .textttt h3 {
+        font-size: 13px;
+    }
+
+    .sortir {
+        margin-top: 20px;
+        height: 40px;
+        width: 462px;
+        border: 2px solid #cecece;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .knopka button {
+        font-family: "Manrope-r";
+        height: 50px;
+        width: 462px;
+        margin-top: 20px;
+        font-size: 17px;
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+    .rybli {
+        display: flex;
+        margin-top: 20px;
+    }
+    
+
+    .b {
+        font-size: 15px;
+    }
+
+    .rybli h1 {
+        font-family: "Manrope-r";
+        font-size: 22px;
+    }
+
+    .rybli .input-auth {
+        border: 2px solid #cecece;
+        background-color: rgb(255, 255, 255);
+        margin-left: 30px;
+        padding: 10px;
+        height: 40px;
+        width: 346px;
+    }
+
+    .razmer {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .onas h1 {
+        font-size: 60px;
+        margin-bottom: 40px;
+    }
+
+    .onas h4 {
+        font-size: 20px;
+    }
+
+
+    .ihihih img{
+        height: 310px;
+    }
+
+    .ihihih h4 {
+        font-size: 16px;
+        width: 470px;
+        margin-bottom: 50px;
+        color: #ffffff;
+    }
+
+    .regis .input-auths {
+        border: 2px solid #9c9c9c;
+        background-color: rgb(0, 0, 0);
+        padding: 20px;
+        height: 40px;
+        width: 380px;
+    }
+
+    .rassilka button {
+        font-family: "Manrope-r";
+        height: 50px;
+        width: 380px;
+        font-size: 17px;
+        background-color: white;
+    }
+
+    .acc {
+        margin-top: 20px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: space-between;
+        color: #ffffff;
+        font-size: 10px;
+    }
+
+    .regis h4 {
+        margin-bottom: 15px;
+        margin-top: 15px;
+        color: #ffffff;
+        font-size: 12px;
+    }
+
+    .rassilka h4 {
+        margin-top: 20px;
+        color: #ffffff;
+        font-size: 12px;
+    }
+
+    .poslednee {
+        background-color: #000000;
+        height: 900px;
+    }
+
+    pre {
+        color: #ffffff;
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .container1{
+        width: 720px;
+    }
+
+    .monoh h1 {
+        font-size: 85px;
+    }
+
+    .monohr img:nth-child(1) {
+        height: 250px;
+    }
+
+    .monohr img:nth-child(2) {
+        height: 250px;
+        width: 140px;
+        margin-left: 50px;
+    }
+
+    .monoh h5 {
+        font-size: 10px;
+        margin-top: 85px;
+        margin-left: 50px;
+    }
+
+    .text h1{
+        font-size: 60px;
+    }
+
+    .people {
+        display: flex;
+        gap: 38px;
+        margin-top: 30px;
+
+    }
+
+    .people img {
+        height: 230px;
+        width: 200px;
+    }
+
+    .section-collection {
+        background-image: url(../imgs/6.jpg);
+        background-size: cover;
+        height: 480px;
+        margin-top: 60px;
+    }
+
+    .collect h4 {
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+        font-size: 15px;
+        width: 600px;
+        text-align: center;
+        font-family: "Manrope-r";
+    }
+
+    .collect button {
+        font-family: "Manrope-r";
+        height: 60px;
+        width: 200px;
+        margin-left: 250px;
+        margin-top: 40px;
+        font-size: 13px;
+        margin-top: 50px;
+    }
+
+    .sezon {
+        display: flex;
+        justify-content: start;
+        font-size: 30px;
+    }
+
+    .sezons {
+        display: flex;
+        justify-content: end;
+        font-size: 30px;
+    }
+
+    .people h5 {
+        font-size: 15px;
+    }
+
+    .cveta {
+        display: flex;
+        gap: 10px;
+    }
+
+    .blue img {
+        height: 320px;
+        width: 200px;
+    }
+
+    .pink img {
+        height: 320px;
+        width: 200px;
+    }
+
+    .red img {
+        height: 140px;
+        width: 250px;
+    }
+
+    .green img {
+        height: 140px;
+        width: 250px;
+    }
+
+    .green {
+        margin-top: 10px;
+    }
+
+    .foto img {
+        height: 380px;
+    }
+
+    .greeen {
+        display: flex;
+        gap: 20px;
+    }
+
+    .textt{
+        width: 310px;
+    }
+
+    .rybli h1 {
+        font-family: "Manrope-r";
+        font-size: 13px;
+    }
+
+    .sortir {
+        margin-top: 20px;
+        height: 40px;
+        width: 310px;
+        border: 2px solid #cecece;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .knopka button {
+        font-family: "Manrope-r";
+        height: 50px;
+        width: 310px;
+        margin-top: 20px;
+        font-size: 17px;
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+    .perecluch .text1{
+        font-size: 10px;
+    }
+
+    .perecluch .text2{
+        font-size: 10px;
+    }
+
+    .perecluch .text3{
+        font-size: 10px;
+    }
+
+    .chtoo {
+        display: flex;
+        gap: 40px;
+    }
+
+    .oaoaoa img{
+        height: 500px;
+    }
+
+    .onas h1 {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    .onas h4 {
+        font-size: 15px;
+    }
+
+    .ahahha h1 {
+        font-size: 50px;
+        color: #ffffff;
+        font-family: "Manrope-r";
+    }
+
+    .ohohoh h1 {
+        font-size: 50px;
+        display: flex;
+        justify-content: end;
+        color: #ffffff;
+        font-family: "Manrope-r";
+    }
+
+    .ihihih img {
+        height: 230px;
+    }
+
+    .ihihih h4 {
+        font-size: 15px;
+        width: 358px;
+        margin-bottom: 30px;
+        color: #ffffff;
+    }
+
+    .bbb{
+        width: 270px;
+    }
+
+    .regis .input-auths {
+        border: 2px solid #9c9c9c;
+        background-color: rgb(0, 0, 0);
+        padding: 20px;
+        height: 10px;
+        width: 270px;
+    }
+
+    .rassilka button {
+        font-family: "Manrope-r";
+        height: 30px;
+        width: 270px;
+        font-size: 17px;
+        background-color: white;
+    }
+
+    pre {
+        color: #ffffff;
+        font-size: 10px;
+    }
+
+    .poslednee {
+        background-color: #000000;
+        height: 800px;
+    }
+
+    .sochseti img {
+        height: 40px;
+    }
+
+    .yprprpr h4{
+        font-size: 12px;
+    }
+
+
+}
+@media (max-width: 768px) {
+    .container1{
+        width:  540px;
+    }
+
+    .monoh h1 {
+        font-size: 60px;
+    }
+
+    .monohr img:nth-child(1) {
+        height: 180px;
+    }
+
+    .monoh h5 {
+        font-size: 8px;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+
+    .monohr img:nth-child(2) {
+        height: 180px;
+        width: 110px;
+        margin-left: 30px;
+    }
+
+    .text h1 {
+        font-size: 40px;
+    }
+
+    .people img {
+        height: 165px;
+        width: 140px;
+    }
+
+    .people {
+        display: flex;
+        gap: 40px;
+        margin-top: 30px;
+    }
+
+    .section-collection {
+        background-image: url(../imgs/6.jpg);
+        background-size: cover;
+        height: 400px;
+        margin-top: 60px;
+    }
+
+    .collect h1 {
+        color: white;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        font-size: 45px;
+        font-family: "Manrope-r";
+    }
+
+    .collect h4 {
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-left: 110px;
+        font-size: 10px;
+        width: 300px;
+        text-align: center;
+        font-family: "Manrope-r";
+    }
+
+    .collect button {
+        font-family: "Manrope-r";
+        height: 40px;
+        width: 100px;
+        margin-left: 220px;
+        margin-top: 10px;
+        font-size: 10px;
+        margin-top: 50px;
+    }
+
+    .sezon {
+        display: flex;
+        justify-content: start;
+        font-size: 20px;
+    }
+
+    .sezons {
+        display: flex;
+        justify-content: end;
+        font-size: 20px;
+    }
+
+    .blue img {
+        height: 240px;
+        width: 150px;
+    }
+
+    .pink img {
+        height: 240px;
+        width: 150px;
+    }
+
+    .red img {
+        height: 100px;
+        width: 180px;
+    }
+
+    .green img {
+        height: 100px;
+        width: 180px;
+    }
+
+    .cveta h2 {
+        font-size: 15px;
+    }
+    
+    .foto img {
+        height: 290px;
+    }
+
+    .textt {
+        width: 225px;
+    }
+
+    .texttt h1 {
+        font-size: 25px;
+        font-family: "Manrope-r";
+    }
+
+    .sortir {
+        margin-top: 20px;
+        height: 30px;
+        width: 225px;
+        border: 2px solid #cecece;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .rybli .input-auth {
+        border: 2px solid #cecece;
+        background-color: rgb(255, 255, 255);
+        margin-left: 20px;
+        padding: 10px;
+        height: 30px;
+        width: 225px;
+    }
+
+    .knopka button {
+        font-family: "Manrope-r";
+        height: 30px;
+        width: 230px;
+        margin-top: 10px;
+        font-size: 12px;
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+    .chtoo {
+        display: flex;
+        gap: 20px;
+    }
+
+    .chtoo h4 {
+        color: white;
+        margin-bottom: 50px;
+        font-family: "Manrope-r";
+        font-size: 12px;
+    }
+
+    .chtoo h3 {
+        color: white;
+        margin-bottom: 20px;
+        font-family: "Manrope-r";
+        font-size: 15px;
+    }
+
+    .chtoo img {
+        height: 20px;
+        width: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .oaoaoa img {
+        height: 400px;
+    }
+
+    .oaoaoa {
+        margin-top: 150px;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        margin-bottom: 150px;
+    }
+
+    .onas h4 {
+        font-size: 11px;
+    }
+
+    .onas h1 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .ahahha h1 {
+        font-size: 30px;
+        color: #ffffff;
+        font-family: "Manrope-r";
+    }
+
+    .ohohoh h1 {
+        font-size: 30px;
+        display: flex;
+        justify-content: end;
+        color: #ffffff;
+        font-family: "Manrope-r";
+    }
+
+    .ihihih img {
+        height: 180px;
+    }
+
+    .ihihih h4 {
+        font-size: 15px;
+        width: 280px;
+        margin-bottom: 30px;
+        color: #ffffff;
+    }
+
+    .pochti {
+        display: flex;
+        margin-top: 60px;
+        gap: 20px;
+    }
+
+    .bbb {
+        width: 200px;
+    }
+
+    .regis .input-auths {
+        border: 2px solid #9c9c9c;
+        background-color: rgb(0, 0, 0);
+        padding: 20px;
+        height: 10px;
+        width: 200px;
+    }
+
+    .rassilka button {
+        font-family: "Manrope-r";
+        height: 30px;
+        width: 200px;
+        font-size: 17px;
+        background-color: white;
+    }
+
+    pre {
+        color: #ffffff;
+        font-size: 7px;
+    }
+    .acc {
+        margin-top: 20px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: space-between;
+        color: #ffffff;
+        font-size: 8px;
+    }
+
+    .yprprpr h4 {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container1{
+        width:  98%;
+    }
+
+    .monohr img:nth-child(2) {
+        height: 190px;
+        width: 120px;
+        margin-left: 20px;
+    }
+
+    .people {
+        display: flex;
+        gap: 47px;
+        margin-top: 30px;
+    }
+
+    .monohr img:nth-child(1) {
+        height: 190px;
+    }
+
+    .monoh h5 {
+        font-size: 10px;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+
+    .section-collection {
+        background-image: url(../imgs/6.jpg);
+        background-size: cover;
+        height: 300px;
+        margin-top: 60px;
+    }
+
+    .collect {
+        margin-top: 10px;
+    }
+
+    .pink img {
+        height: 250px;
+        width: 157px;
+    }
+
+    .blue img {
+        height: 250px;
+        width: 157px;
+    }
+
+    .green {
+        margin-top: 23px;
+    }
+
+    .cveta h2 {
+        font-size: 12px;
+    }
+
+    .textt {
+        width: 240px;
+    }
+
+    .sortir {
+        margin-top: 20px;
+        height: 30px;
+        width: 240px;
+        border: 2px solid #cecece;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .rybli .input-auth {
+        border: 2px solid #cecece;
+        background-color: rgb(255, 255, 255);
+        margin-left: 20px;
+        padding: 10px;
+        height: 30px;
+        width: 230px;
+    }
+
+    .knopka button {
+        font-family: "Manrope-r";
+        height: 30px;
+        width: 240px;
+        margin-top: 10px;
+        font-size: 12px;
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+    .bbb {
+        width: 215px;
+    }
+
+    .regis .input-auths {
+        border: 2px solid #9c9c9c;
+        background-color: rgb(0, 0, 0);
+        padding: 20px;
+        height: 10px;
+        width: 215px;
+    }
+
+    .rassilka button {
+        font-family: "Manrope-r";
+        height: 30px;
+        width: 215px;
+        font-size: 15px;
+        background-color: white;
+    }
+
+    .ihihih img {
+        height: 180px;
+        margin-top: 20px;
+    }
+
+    
+
+
+}
+@media (max-width: 480px) {
+    .container1{
+        width:  98%;
+    }
+
+    .monohr img:nth-child(1) {
+        height: 110px;
+    }
+
+    .monohr img:nth-child(2) {
+        height: 110px;
+        width: 80px;
+        margin-left: 20px;
+    }
+
+    .monoh h1 {
+        font-size: 40px;
+    }
+
+    .monoh h5 {
+        font-size: 8px;
+        margin-top: 70px;
+        margin-left: 10px;
+    }
+
+    .langs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .text h1 {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .people {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 47px;
+        margin-top: 30px;
+    }
+
+    .section-collection {
+        background-image: url(../imgs/6.jpg);
+        background-size: cover;
+        height: 200px;
+        margin-top: 60px;
+    }
+
+    .collect h1 {
+        color: white;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        font-family: "Manrope-r";
+    }
+
+    .collect h4 {
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-left: 60px;
+        font-size: 8px;
+        width: 300px;
+        text-align: center;
+        font-family: "Manrope-r";
+    }
+
+    .collect button {
+        font-family: "Manrope-r";
+        height: 20px;
+        width: 100px;
+        margin-left: 170px;
+        margin-top: 10px;
+        font-size: 8px;
+        margin-top: 30px;
+    }
+
+    .cveta {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blue img {
+        height: 250px;
+        width: 170px;
+    }
+
+    .pink img {
+        height: 250px;
+        width: 170px;
+    }
+
+    .red img {
+        height: 110px;
+        width: 180px;
+    }
+
+    .green img {
+        height: 110px;
+        width: 180px;
+    }
+
+    .greeen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .chtoo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .podderjka{
+        width: 307px;
+    }
+
+    .dostavka{
+        width: 307px;
+    }
+
+    .oaoaoa {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 100px;
+    }
+
+    .pochti {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+        gap: 20px;
+    }
+
+    .poslednee {
+        background-color: #000000;
+        height: 1050px;
+    }
+
+    .yprprpr {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        color: #ffffff;
+    }
+
+    .sochseti img {
+        height: 20px;
+    }
+
+    .yprprpr h4 {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container{
+        width: 98%;
+    }
+
+    .monohr img:nth-child(2) {
+        height: 100px;
+        width: 60px;
+        margin-left: 10px;
+    }
+
+    .monohr img:nth-child(1) {
+        height: 100px;
+    }
+
+    .monoh h1 {
+        font-size: 34px;
+    }
+
+    .monoh h5 {
+        font-size: 5px;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+
+    .text h1 {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .collect h1 {
+        color: white;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+        font-family: "Manrope-r";
+    }
+
+    .collect h4 {
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-left: 40px;
+        font-size: 7px;
+        width: 200px;
+        text-align: center;
+        font-family: "Manrope-r";
+    }
+
+    .section-collection {
+        background-image: url(../imgs/6.jpg);
+        background-size: cover;
+        height: 150px;
+        margin-top: 10px;
+    }
+
+    .collect button {
+        font-family: "Manrope-r";
+        height: 20px;
+        width: 60px;
+        margin-left: 110px;
+        margin-top: 10px;
+        font-size: 5px;
+        margin-top: 10px;
+    }
+
+    .sezon {
+        display: flex;
+        justify-content: start;
+        font-size: 10px;
+    }
+
+    .sezons {
+        display: flex;
+        justify-content: end;
+        font-size: 10px;
+    }
+
+    .dostavka {
+        width: 200px;
+    }
+
+    .podderjka {
+        width: 200px;
+    }
+
+    .bezopasnost{
+        width: 200px;
+    }
+
+    .skidka{
+        width: 200px;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .container{
+        width: 98%;
+    }
+
+    .sezon {
+        display: flex;
+        justify-content: start;
+        font-size: 15px;
+    }
+
+    .sezons {
+        display: flex;
+        justify-content: end;
+        font-size: 15px;
+    }
+
+    .collect h4 {
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-left: 10px;
+        font-size: 8px;
+        width: 300px;
+        text-align: center;
+        font-family: "Manrope-r";
+    }
+
+    .collect button {
+        font-family: "Manrope-r";
+        height: 20px;
+        width: 100px;
+        margin-left: 110px;
+        margin-top: 10px;
+        font-size: 8px;
+        margin-top: 20px;
+    }
+
+    .text h1 {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .monoh h5 {
+        font-size: 8px;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 414px) {
+    .container{
+        width: 98%;
+    }
+
+    .sezon {
+        display: flex;
+        justify-content: start;
+        font-size: 10px;
+    }
+
+    .sezons {
+        display: flex;
+        justify-content: end;
+        font-size: 10px;
+    }
+
+    .monoh h5 {
+        font-size: 8px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .container{
+        width: 950px;
+    }
+}
+@media (max-width: 992px) {
+    .container{
+        width: 720px;
+    }
+}
+@media (max-width: 768px) {
+    .container{
+        width:  540px;
+    }
+}
+@media (max-width: 576px) {
+    .container{
+        width:  98%;
+    }
+}
+@media (max-width: 480px) {
+    .container{
+        width:  98%;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
